@@ -1,0 +1,94 @@
+Curso de Git para IES-Comercio.
+
+- En el curso se desarrollarán los siguientes puntos:
+    01. Introducción a Git:
+        https://bluuweb.github.io/tutorial-github/guia/
+        https://nvie.com/posts/a-successful-git-branching-model/
+    02. Crear un repositorio:
+        https://kbroman.org/github_tutorial/pages/init.html
+            - from netbeans to github (first in github and then netbeans remote)
+            - from command line to github (first in github and follow instructions)
+    03. Clonar un repositorio:
+        https://git-scm.com/book/es/v2/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
+            - command line
+            - netbeans
+    04. Configuración básica de usuario y correo en un repositorio:
+        https://support.atlassian.com/bitbucket-cloud/docs/configure-your-dvcs-username-for-commits/
+            - command line
+            - netbeans
+    05. Creando ramas de desarrollo desde cero:
+        https://desarrolloweb.com/articulos/trabajar-ramas-git.html
+    06. Cambiando entre ramas:
+        https://www.atlassian.com/git/tutorials/using-branches/git-checkout
+    07. Creando ramas a partir de desarrollo:
+        git checkout -b feature/<nombre_de_branch>
+    08. Viendo el estado de un repositorio:
+        https://git-scm.com/docs/git-status
+    09. Ignorando ficheros en un repositorio:
+        https://git-scm.com/docs/gitignore
+        https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+    10. Añadiendo ficheros a un repositorio:
+        https://git-scm.com/book/es/v2/Fundamentos-de-Git-Guardando-cambios-en-el-Repositorio
+    11. Comiteando en el repositorio:
+        https://www.atlassian.com/git/tutorials/saving-changes/git-commit
+    12. Viendo diferencias en un repositorio:
+        https://www.valenciatech.com/formacion/online/git/comprobar-diferencias/
+        https://devconnected.com/how-to-compare-two-git-branches/
+    13. Añadiendo tag para control de versiones de lanzamiento.
+        https://devconnected.com/how-to-create-git-tags/
+    14. Stashing ficheros en un repo:
+        https://www.atlassian.com/git/tutorials/saving-changes/git-stash
+    15. Traerse los cambios del repositorio remoto (origen)
+        https://www.freecodecamp.org/news/git-pull-explained/
+    16. Enviando datos al repositorio remoto (origen), pusheando datos.
+        https://www.freecodecamp.org/espanol/news/el-comando-git-push-explicado/
+    17. Mergeando en repositorio local:
+        https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+    18. Rebase vs Merge
+        https://medium.datadriveninvestor.com/git-rebase-vs-merge-cc5199edd77c
+        rebase with squash in master branch with version tag
+    19. Deshaciendo cambios:
+        https://www.pixelstech.net/article/1549115148-git-reset-vs-git-revert
+    20. Recuperando datos perdidos en el repositorio:
+        https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog
+    21. Como encontrar el commit que introdujo el bug:
+        https://interrupt.memfault.com/blog/git-bisect
+    22. Cherry-pick:
+        https://www.atlassian.com/es/git/tutorials/cherry-pick
+
+- Prácticas de laboratorio con Java/NetBeans/Git para lo cual cada equipo del laboratorio deberá disponer de los siguientes recursos:
+    01. Sistema operativo Windows 10
+    02. Git para windows: https://git-scm.com/download/win
+    03. JDK (Java Development Kit for Windows): https://www.oracle.com/java/technologies/javase-jdk16-downloads.html
+    04. NetBeans LTS: https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/12.0/Apache-NetBeans-12.0-bin-windows-x64.exe
+
+- gmail: ies.comercio.curso.git@gmail.com
+
+- GitHub: 
+	login: IesComercioCursoGit
+	password: 7Hp4sKFL86QExKx
+	repositorio 0: https://IesComercioCursoGit@github.com/IesComercioCursoGit/Java0.git
+	repositorio 1: https://IesComercioCursoGit@github.com/IesComercioCursoGit/Java1.git
+
+- alias:
+alias gadd='git add'
+alias gbranch='git branch'
+alias gcheckout='git checkout'
+alias gcommit='git commit'
+alias gcomposer='php72 -d allow_url_fopen=on /usr/local/bin/composer install; php72 -d allow_url_fopen=on /usr/local/bin/composer dumpautoload -o;'
+alias gconfig='git config'
+alias gdiff='git --no-pager diff --patience --color=always'
+alias gfetch='git fetch'
+alias glog='git log --graph --abbrev-commit --decorate=full --all --color=always --format='\''%C(bold blue)%h%C(reset) %C(red)%an%C(reset)%C(bold yellow)%d%C(reset) %C(bold green)(%cD)%C(reset) [%C(bold white)%s%C(reset)] %b%N'\'' --author-date-order'
+alias glog2='glog --pretty --source --name-status'
+alias glogbranch='git log --graph --pretty=oneline --abbrev-commit --first-parent --format='\''%C(bold blue)%h%C(reset) %C(red)%an%C(reset)%C(bold yellow)%d%C(reset) %C(bold green)(%cD)%C(reset) [%C(bold white)%s%C(reset)] %b%N'\'' --author-date-order'
+alias gmerge='git merge'
+alias gpull='git pull'
+alias grebase='git rebase'
+alias grep='nice -n 19 grep --color --exclude-dir=".svn" --exclude-dir=".git"'
+alias greset='git reset'
+alias gstatus='git status'
+alias gtag='git tag'
+alias gupdate='git fetch --all --prune --tags; git pull --all --tags'
+
+
