@@ -69,6 +69,7 @@ Curso de Git para IES-Comercio.
 	password: 7Hp4sKFL86QExKx
 	repositorio 0: https://IesComercioCursoGit@github.com/IesComercioCursoGit/Java0.git
 	repositorio 1: https://IesComercioCursoGit@github.com/IesComercioCursoGit/Java1.git
+	repositorio 2: https://IesComercioCursoGit@github.com/IesComercioCursoGit/Java2.git
 
 - alias:
 alias gadd='git add'
